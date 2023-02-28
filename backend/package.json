@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "dev:debug": "ts-node-dev --transpile-only --respawn --inspect=3000 --project --ignore-watch node_modules tsconfig.json src/server.ts",
-    "start": "node build/index.js",
+    "start": "node build/server.js",
     "build": "tsc --project tsconfig.json"
   },
   "dependencies": {
