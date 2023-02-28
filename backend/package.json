@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "start": "ts-node src/server.ts --omit=dev",
+    "start": "ts-node src/server.ts",
     "dev:debug": "ts-node-dev --transpile-only --respawn --inspect=3000 --project --ignore-watch node_modules tsconfig.json src/server.ts"
   },
   "dependencies": {
